@@ -1,6 +1,6 @@
 // comece a criar a sua função add na linha abaixo
-function add (y, u){
-    return y + u;
+function add (three, five){
+    return three + five;
 
 }
 
@@ -9,13 +9,13 @@ function add (y, u){
 
 
 // comece a criar a sua função multiply na linha abaixo
-function multiply (w, g){
-    let num = 0;
-    for (let dev = 1; dev <= g; dev++){
-        num = add (num, w);
+function multiply (four, six){
+    let zero = 0;
+    for (let plus = 1; plus <= six; plus++){
+        zero = add (zero, four);
 
     }
-    return num;   
+    return zero;   
 } 
 
 // descomente a linha seguinte para testar sua função
@@ -23,13 +23,13 @@ function multiply (w, g){
 
 
 // comece a criar a sua função power na linha abaixo
-function power (x, n){
-    let num = 1;
-    for (let dev = 1; dev <= n; dev++){
-        num = multiply (num, x);
+function power (three, four){
+    let one = 1;
+    for (let plus = 1; plus <= four; plus++){
+        one = multiply (one, three);
 
     }
-    return num;
+    return one;
 }
 
 // descomente a linha seguinte para testar sua função
@@ -37,12 +37,12 @@ function power (x, n){
 
 
 // comece a criar a sua função factorial na linha abaixo
-function factorial (g){
-    let num = 1;
-    for (let dev = 1; dev <= g; dev++){
-        num = multiply (num, dev);
+function factorial (five){
+    let one = 1;
+    for (let plus = 1; plus <= five; plus++){
+        one = multiply (one, plus);
     }
-    return num;
+    return one;
 }
 
 // descomente a linha seguinte para testar sua função
@@ -54,16 +54,16 @@ function factorial (g){
  */
 
 // crie a função fibonacci
-function fibonacci(n){
-    let num = 1;
-    let num2 = 0;
-    for (let dev = 1; dev < n; dev++){
-        let num3 = num2;
-        num2 = num
-        num = add (num, num3);
+function fibonacci(seven){
+    let one = 1;
+    let zero = 0;
+    for (let plus = 1; plus < seven; plus++){
+        let two = zero;
+        zero = one
+        one = add (one, two);
 
     }
-    return num;
+    return one;
 }
 
 
