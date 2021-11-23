@@ -54,7 +54,7 @@ function factorial (five){
  */
 
 // crie a função fibonacci
-function fibonacci(seven){
+function fibonacci(seven){ 
     let one = 1;
     let zero = 0;
     for (let plus = 1; plus < seven; plus++){
